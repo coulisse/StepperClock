@@ -40,6 +40,9 @@ Markdown
 
 Questo progetto implementa un controllo ad alta precisione per motori passo-passo utilizzando un ESP8266. Il sistema è ottimizzato per applicazioni di orologeria, garantendo un impulso ogni **60ms** con jitter minimo grazie all'uso dei timer hardware e all'esclusione delle funzioni Wi-Fi.
 
+
+https://how2electronics.com/control-stepper-motor-with-drv8825-driver-esp8266/
+
 ---
 
 ## 🔌 Schema di Collegamento (Mermaid)
