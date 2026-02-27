@@ -41,65 +41,9 @@ Markdown
 Questo progetto implementa un controllo ad alta precisione per motori passo-passo utilizzando un ESP8266. Il sistema è ottimizzato per applicazioni di orologeria, garantendo un impulso ogni **60ms** con jitter minimo grazie all'uso dei timer hardware e all'esclusione delle funzioni Wi-Fi.
 
 
+## 🔌 Schema di Collegamento
 https://how2electronics.com/control-stepper-motor-with-drv8825-driver-esp8266/
 
----
-
-## 🔌 Schema di Collegamento (Mermaid)
-
-Il seguente diagramma mostra come connettere l'ESP8266 al driver (A4988/DRV8825) e al motore.
-
-```mermaid
-graph TD
-    subgraph Ingresso_Power [Sorgente Energetica]
-        PWR[Alimentatore 13.7V DC]
-    end
-
-    subgraph Regolazione_5V [Modulo Regolatore]
-        C1[Condensatore 0.33uF]
-        REG[Regolatore LM7805]
-        C2[Condensatore 0.1uF]
-    end
-
-    subgraph Logica [Controllo]
-        ESP[ESP8266 NodeMCU]
-    end
-
-    subgraph Potenza [Driver e Motore]
-        DRV[Driver A4988 / DRV8825]
-        C3[Condensatore 100uF]
-        MOT[Motore Stepper]
-    end
-
-    %% Collegamenti Alimentazione
-    PWR -->|13.7V| REG
-    PWR -->|13.7V| C3
-    C3 -->|VMOT| DRV
-    
-    REG -->|5V Out| ESP
-    REG -->|5V Out| DRV
-    
-    %% Filtri Regolatore
-    PWR -.-> C1
-    C1 -.-> REG
-    REG -.-> C2
-    C2 -.-> ESP
-
-    %% Collegamenti Segnale
-    ESP -->|D1 / GPIO5| STEP[Pin STEP]
-    ESP -->|D2 / GPIO4| DIR[Pin DIR]
-    
-    %% Ponticelli e Motore
-    DRV -->|A1,A2,B1,B2| MOT
-    DRV_SLP[SLEEP] --- DRV_RST[RESET]
-
-    %% Masse (GND)
-    PWR --- GND((GND Comune))
-    ESP --- GND
-    DRV --- GND
-    REG --- GND
-```
----
 
 ## 💻 Descrizione del Codice
 
