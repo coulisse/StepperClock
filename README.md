@@ -58,7 +58,7 @@ Il cuore è la funzione `onTimer()`, marcata con `ICACHE_RAM_ATTR` per essere es
 * **ASM Nop:** Il brevissimo impulso di 3 microsecondi è generato con un ciclo `nop` (No Operation) in Assembly, garantendo che il driver riconosca lo scalino di tensione.
 
 ### 3. Loop Principale
-Il `loop()` rimane vuoto, contenendo solo un `yeld()` per permettere al sistema (Watchdog Timer) di respirare senza resettare la scheda, lasciando tutto il lavoro critico al Timer hardware.
+Il `loop()` rimane vuoto, contenendo solo un `yield()` per permettere al sistema (Watchdog Timer) di respirare senza resettare la scheda, lasciando tutto il lavoro critico al Timer hardware.
 
 ---
 
