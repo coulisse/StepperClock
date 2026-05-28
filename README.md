@@ -1,5 +1,14 @@
 ![StepperClock](docs/header.svg)
 
+<div align="center">
+
+[![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square&logo=cplusplus)](https://cplusplus.com/)
+[![ESP8266](https://img.shields.io/badge/Platform-ESP8266-orange?style=flat-square&logo=arduino)](https://www.espressif.com/en/products/socs/esp8266/)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)](https://github.com/coulisse/StepperClock)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+
+</div>
+
 # 🕒 Precision Clock Stepper Control
 
 Questo progetto utilizza un **ESP8266** per pilotare un motore passo-passo con estrema precisione temporale, eliminando le interferenze tipiche delle funzioni bloccanti o dello stack Wi-Fi. È idea[...]
