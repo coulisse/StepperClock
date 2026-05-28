@@ -6,7 +6,7 @@
 [![ESP8266](https://img.shields.io/badge/Platform-ESP8266-cyan?style=flat-square&logo=arduino)](https://www.espressif.com/en/products/socs/esp8266/)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)](https://github.com/coulisse/StepperClock)
 [![License](https://img.shields.io/badge/License-GPL3-green?style=flat-square)](LICENSE)
-[![Drawing](https://img.shields.io/badge/Drawing-Autocad-red=flat-square)](DRAWING)
+[![Drawing](https://img.shields.io/badge/Drawing-Autocad-red?style=flat-square)](DRAWING)
 
 
 
