@@ -57,14 +57,15 @@ Il `loop()` rimane vuoto, contenendo solo un `yeld()` per permettere al sistema 
 * Alimentatore DC adeguato alla coppia del motore.
 
 ## 🎬 Multimedia
-* [video 1](docs/video1.mp4)
-* [video 2](docs/video2.mp4)
+* [📥 Scarica Video 1 (Tasto destro -> Salva link con nome)](docs/video1.mp4)
+* [📥 Scarica Video 2 (Tasto destro -> Salva link con nome)](docs/video2.mp4)
 
 ## 👥 Autori
 
 - Samuele Gerbaldo *(project leader)*
-- Marwan
-- Nicola
+- Marwan El Kazzari
+- Jacopo Scotto
+- Mattia Canepa
 
 ## 🤝 Supporto esterno
 
