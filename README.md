@@ -1,12 +1,28 @@
 
+![StepperClock Header](https://github.com/coulisse/StepperClock/assets/1/stepper-clock-header.svg?raw=true)
+
+<div align="center">
+  
+  ⚙️ **Orologio a Motore Passo-Passo** ⚙️
+  
+  *Precisione Cronometrica con Controllo Hardware Ottimizzato*
+  
+  ![Build Status](https://img.shields.io/badge/status-active-brightgreen)
+  ![C++ Badge](https://img.shields.io/badge/language-C%2B%2B-blue)
+  ![ESP8266](https://img.shields.io/badge/platform-ESP8266-orange)
+  
+</div>
+
+---
+
 # 🕒 Precision Clock Stepper Control
 
-Questo progetto utilizza un **ESP8266** per pilotare un motore passo-passo con estrema precisione temporale, eliminando le interferenze tipiche delle funzioni bloccanti o dello stack Wi-Fi. È ideale per applicazioni che richiedono un timing affidabile, come un **orologio analogico di precisione**.
+Questo progetto utilizza un **ESP8266** per pilotare un motore passo-passo con estrema precisione temporale, eliminando le interferenze tipiche delle funzioni bloccanti o dello stack Wi-Fi. È idea[...]
 
 ---
 
 ## 📝 Descrizione del Progetto
-L'obiettivo è generare un segnale di STEP ogni **60 ms** esatti. Per raggiungere una precisione di livello cronometrico, il codice bypassa le funzioni standard di Arduino (come `delay()` o `digitalWrite()`) e utilizza direttamente i **registri hardware** del microcontrollore.
+L'obiettivo è generare un segnale di STEP ogni **60 ms** esatti. Per raggiungere una precisione di livello cronometrico, il codice bypassa le funzioni standard di Arduino (come `delay()` o `digita[...]
 
 
 Il motore passo-passo è collegato ad un pignone che comanda una cascata di ingranaggi, di cui tre di questi sono collegati a ore, minuti e secondi.
@@ -38,7 +54,7 @@ Il motore passo-passo è collegato ad un pignone che comanda una cascata di ingr
 ## 💻 Descrizione del Codice
 
 ### 1. Ottimizzazione del Sistema
-Nel `setup()`, il Wi-Fi viene spento con `wifi_set_opmode(NULL_MODE)`. Questo è fondamentale: lo stack Wi-Fi dell'ESP8266 "ruba" cicli di CPU ogni pochi millisecondi, causando ritardi imprevedibili. Disabilitandolo, il controllo del motore diventa stabile.
+Nel `setup()`, il Wi-Fi viene spento con `wifi_set_opmode(NULL_MODE)`. Questo è fondamentale: lo stack Wi-Fi dell'ESP8266 "ruba" cicli di CPU ogni pochi millisecondi, causando ritardi imprevedibi[...]
 
 ### 2. Il Timer e l'Interrupt
 Il cuore è la funzione `onTimer()`, marcata con `ICACHE_RAM_ATTR` per essere eseguita direttamente dalla RAM (più veloce).
