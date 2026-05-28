@@ -10,22 +10,13 @@ L'obiettivo è generare un segnale di STEP ogni **60 ms** esatti. Per raggiunger
 
 Il motore passo-passo è collegato ad un pignone che comanda una cascata di ingranaggi, di cui tre di questi sono collegati a ore, minuti e secondi.
 
-<object data="docs/completo.dxf-Model.pdf" type="application/pdf" width="100%" height="500px">
-    <p>Il tuo browser non supporta la visualizzazione dei PDF. <a href="docs/completo.dxf-Model.pdf">Clicca qui per scaricarlo.</a></p>
-</object>
+[![Anteprima del PDF](docs/completo.png)](docs/completo.dxf-Model.pdf)
 
 
-### Caratteristiche Principali:
-* **Zero Jitter:** Disabilitazione totale delle funzioni Wi-Fi per evitare micro-interruzioni della CPU.
-* **Timer Hardware (Timer1):** Gestione dell'interrupt a priorità elevata.
-* **Direct Register Access:** Commutazione dei pin tramite i registri `GPIO_OUT_W1TS` e `W1TC` per una velocità massima.
-* **Low Power/High Stability:** Configurazione "One-shot" del timer ricaricata nell'ISR per mantenere la sincronia.
 
 ---
 
 ## 🔌 Schema di Collegamento
-
-
 
 ### Tabella dei Pin
 | Componente | Pin ESP8266 | Pin Driver (A4988/DRV8825) | Funzione |
@@ -37,19 +28,6 @@ Il motore passo-passo è collegato ad un pignone che comanda una cascata di ingr
 | **Segnale Dir** | **GPIO 4 (D2)** | **DIR** | Direzione rotazione |
 
 > **Nota:** Ricorda di inserire un condensatore elettrolitico (100µF) tra i pin VMOT e GND del driver per assorbire i picchi di corrente.
-
-Ricevuto, ora ho capito perfettamente. Volevi una rappresentazione grafica del cablaggio integrata direttamente nel codice Markdown. Utilizzerò la sintassi Mermaid, che viene renderizzata correttamente da GitHub e dai principali editor Markdown.
-
-Ecco il file README.md completo:
-
-Markdown
-# 🕒 ESP8266 Precision Clock Stepper Control
-
-Questo progetto implementa un controllo ad alta precisione per motori passo-passo utilizzando un ESP8266. Il sistema è ottimizzato per applicazioni di orologeria, garantendo un impulso ogni **60ms** con jitter minimo grazie all'uso dei timer hardware e all'esclusione delle funzioni Wi-Fi.
-
-
-## 🔌 Schema di Collegamento
-https://how2electronics.com/control-stepper-motor-with-drv8825-driver-esp8266/
 
 
 ## 💻 Descrizione del Codice
@@ -69,6 +47,6 @@ Il `loop()` rimane vuoto, contenendo solo un `delay(1)` per permettere al sistem
 
 ## 🛠️ Requisiti Hardware
 * Microcontrollore ESP8266 (NodeMCU o Wemos D1 Mini).
-* Driver Stepper (A4988, DRV8825 o TMC2208).
+* Driver Stepper DRV8825
 * Motore Passo-Passo (NEMA 17 o simili).
 * Alimentatore DC adeguato alla coppia del motore.
