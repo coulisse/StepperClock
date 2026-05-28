@@ -43,7 +43,7 @@ void setup()
   pinMode(STEP_PIN, OUTPUT);
   pinMode(DIR_PIN, OUTPUT);
   digitalWrite(STEP_PIN, LOW);
-  digitalWrite(DIR_PIN, HIGH); 
+  digitalWrite(DIR_PIN, LOW); 
   Serial.println(F("output pin enabled")); 
 
   /* Configurazione Timer1 */
