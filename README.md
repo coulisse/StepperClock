@@ -8,7 +8,10 @@ Questo progetto utilizza un **ESP8266** per pilotare un motore passo-passo con e
 ## 📝 Descrizione del Progetto
 L'obiettivo è generare un segnale di STEP ogni **60 ms** esatti. Per raggiungere una precisione di livello cronometrico, il codice bypassa le funzioni standard di Arduino (come `delay()` o `digitalWrite()`) a favore di un controllo hardware diretto.
 
+
 Il motore passo-passo è collegato ad un pignone che comanda una cascata di ingranaggi, di cui tre di questi sono collegati a ore, minuti e secondi.
+
+[[Schema completo in formato DWG](docs/completo.dxf.dwg)](docs/completo.dxf.dwg)
 
 [![Schema completo](docs/completo.png)](docs/completo.dxf-Model.pdf)
 
