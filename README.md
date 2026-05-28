@@ -1,19 +1,18 @@
 
-![StepperClock Header](https://github.com/coulisse/StepperClock/assets/1/stepper-clock-header.svg?raw=true)
-
 <div align="center">
-  
-  ⚙️ **Orologio a Motore Passo-Passo** ⚙️
-  
-  *Precisione Cronometrica con Controllo Hardware Ottimizzato*
-  
-  ![Build Status](https://img.shields.io/badge/status-active-brightgreen)
-  ![C++ Badge](https://img.shields.io/badge/language-C%2B%2B-blue)
-  ![ESP8266](https://img.shields.io/badge/platform-ESP8266-orange)
-  
-</div>
+
+# ⚙️ StepperClock ⚙️
+
+*Orologio a Motore Passo-Passo - Precisione Cronometrica con Controllo Hardware Ottimizzato*
+
+![Build Status](https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge)
+![C++](https://img.shields.io/badge/language-C%2B%2B-blue?style=for-the-badge)
+![ESP8266](https://img.shields.io/badge/platform-ESP8266-orange?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
 ---
+
+</div>
 
 # 🕒 Precision Clock Stepper Control
 
