@@ -1,5 +1,5 @@
 
-# 🕒 ESP8266 Precision Clock Stepper Control
+# 🕒 Precision Clock Stepper Control
 
 Questo progetto utilizza un **ESP8266** per pilotare un motore passo-passo con estrema precisione temporale, eliminando le interferenze tipiche delle funzioni bloccanti o dello stack Wi-Fi. È ideale per applicazioni che richiedono un timing affidabile, come un **orologio analogico di precisione**.
 
@@ -56,7 +56,7 @@ Il `loop()` rimane vuoto, contenendo solo un `yeld()` per permettere al sistema 
 * Motore Passo-Passo (NEMA 17 o simili).
 * Alimentatore DC adeguato alla coppia del motore.
 
-## Multimedia
+## 🎬 Multimedia
 * [video 1](docs/video1.mp4)
 * [video 2](docs/video2.mp4)
 
