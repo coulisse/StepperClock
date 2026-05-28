@@ -52,3 +52,7 @@ Il `loop()` rimane vuoto, contenendo solo un `delay(1)` per permettere al sistem
 * Driver Stepper DRV8825
 * Motore Passo-Passo (NEMA 17 o simili).
 * Alimentatore DC adeguato alla coppia del motore.
+
+## Multimedia
+![](docs/video1.mp4)
+![](docs/video2.mp4)
