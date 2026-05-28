@@ -52,15 +52,11 @@ Il `loop()` rimane vuoto, contenendo solo un `delay(1)` per permettere al sistem
 
 ## 🛠️ Requisiti Hardware
 * Microcontrollore ESP8266 (NodeMCU o Wemos D1 Mini).
-* Driver Stepper DRV8825
+* Driver Stepper DRV8825.
 * Motore Passo-Passo (NEMA 17 o simili).
 * Alimentatore DC adeguato alla coppia del motore.
 
 ## Multimedia
-[video 1](docs/video1.mp4)
-[video 2](docs/video2.mp4)
+* [video 1](docs/video1.mp4)
+* [video 2](docs/video2.mp4)
 
-<video controls width="100%">
-  <source src="docs/video1.mp4" type="video/mp4">
-  Il tuo browser non supporta la riproduzione di questo video.
-</video>
