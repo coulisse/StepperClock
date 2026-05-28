@@ -54,5 +54,5 @@ Il `loop()` rimane vuoto, contenendo solo un `delay(1)` per permettere al sistem
 * Alimentatore DC adeguato alla coppia del motore.
 
 ## Multimedia
-![](docs/video1.mp4)
-![](docs/video2.mp4)
+[video 1](docs/video1.mp4)
+[video 2](docs/video2.mp4)
