@@ -67,5 +67,5 @@ Il `loop()` rimane vuoto, contenendo solo un `yeld()` per permettere al sistema 
 
 ## 🤝 Supporto esterno
 
-- Corrado Gerbaldo *(programming)*
-- Giorgio Gerbaldo *(disegno tecnico)*
+- Corrado Gerbaldo *(coding)*
+- Giorgio Gerbaldo *(3D Modeling Specialist)*
