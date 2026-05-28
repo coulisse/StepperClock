@@ -11,7 +11,7 @@ L'obiettivo è generare un segnale di STEP ogni **60 ms** esatti. Per raggiunger
 
 Il motore passo-passo è collegato ad un pignone che comanda una cascata di ingranaggi, di cui tre di questi sono collegati a ore, minuti e secondi.
 
-[[Schema completo in formato DWG](docs/completo.dxf.dwg)](docs/completo.dxf.dwg)
+[Schema completo in formato DWG](docs/completo.dxf.dwg)
 
 [![Schema completo](docs/completo.png)](docs/completo.dxf-Model.pdf)
 
@@ -59,3 +59,8 @@ Il `loop()` rimane vuoto, contenendo solo un `delay(1)` per permettere al sistem
 ## Multimedia
 [video 1](docs/video1.mp4)
 [video 2](docs/video2.mp4)
+
+<video controls width="100%">
+  <source src="docs/video1.mp4" type="video/mp4">
+  Il tuo browser non supporta la riproduzione di questo video.
+</video>
