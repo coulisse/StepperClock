@@ -64,6 +64,7 @@ Il `loop()` rimane vuoto, contenendo solo un `yeld()` per permettere al sistema 
 
 - Samuele Gerbaldo *(project leader)*
 - Marwan
+- Nicola
 
 ## 🤝 Supporto esterno
 
