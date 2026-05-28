@@ -10,7 +10,10 @@ L'obiettivo è generare un segnale di STEP ogni **60 ms** esatti. Per raggiunger
 
 Il motore passo-passo è collegato ad un pignone che comanda una cascata di ingranaggi, di cui tre di questi sono collegati a ore, minuti e secondi.
 
-Vedi il [Modello PDF completo](docs/completo.dxf-Model.pdf) direttamente nel progetto.
+<object data="docs/completo.dxf-Model.pdf" type="application/pdf" width="100%" height="500px">
+    <p>Il tuo browser non supporta la visualizzazione dei PDF. <a href="docs/completo.dxf-Model.pdf">Clicca qui per scaricarlo.</a></p>
+</object>
+
 
 ### Caratteristiche Principali:
 * **Zero Jitter:** Disabilitazione totale delle funzioni Wi-Fi per evitare micro-interruzioni della CPU.
