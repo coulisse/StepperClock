@@ -10,7 +10,9 @@ L'obiettivo è generare un segnale di STEP ogni **60 ms** esatti. Per raggiunger
 
 Il motore passo-passo è collegato ad un pignone che comanda una cascata di ingranaggi, di cui tre di questi sono collegati a ore, minuti e secondi.
 
-[![Anteprima del PDF](docs/completo.png)](docs/completo.dxf-Model.pdf)
+[![Schema completo](docs/completo.png)](docs/completo.dxf-Model.pdf)
+
+[![ruotismi](docs/ruotismi.png)](docs/Ruotismi.dxf-Model.pdf)
 
 
 
