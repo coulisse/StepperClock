@@ -9,9 +9,8 @@
 
 </div>
 
-# 🕒 Precision Clock Stepper Control
 
-Questo progetto utilizza un **ESP8266** per pilotare un motore passo-passo con estrema precisione temporale, eliminando le interferenze tipiche delle funzioni bloccanti o dello stack Wi-Fi. È idea[...]
+Questo progetto utilizza un **ESP8266** per pilotare un motore passo-passo con estrema precisione temporale, eliminando le interferenze tipiche delle funzioni bloccanti o dello stack Wi-Fi.
 
 ---
 
